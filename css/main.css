@@ -1,11 +1,162 @@
 /* Inserta tu codigo aqui */
+img {
+	max-width: 100%;
+}
+body {
+	background-color: 
+	 #2D2735;
+}
+/*estilos del header*/
+header{
+	background-color: #1C1821
+}
 
+header li {
+	margin-left: 3%;
+	display: inline-block;
+}
+
+header ul {
+	text-align: right;
+	margin: 5% 5%;
+	list-style: none;
+}
+
+header a {
+	font-family: "Open sans";
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*estilos del banner*/
+.banner {
+	background-image:url(../image/header-image.jpg);
+	background-repeat: no-repeat;;
+	padding: 10%;
+	background-size: 100%;
+	margin-top: 20px;
+	background-size: no-repeat; 
+}
+
+.primavera {
+	text-align: center;
+	margin-left: 30%;
+	padding: 5% 0%;
+	font-family: "Courgette";
+	background-color: #1C1821;
+	max-width: 50%;
+}
+
+.primavera h1{
+	font-size: 3em;
+	color: #F6B96A;
+}
+
+.primavera h4{
+	font-size: 13px;
+	margin: 1% 2%;
+	display:inline-block;
+	color: #ffffff;
+}
+
+/*estilos de los articulos*/
+article{
+	text-align: center;
+	margin-left: 2%;
+}
+.datos{
+	background-color: #1c1821;
+	margin: 20px 0;
+}
+.datos h4{
+	color: #F6B96A;
+	font-family: "Courgette";
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.datos h5{
+	color: #ffffff;
+	font-family: "Courgette";
+	margin-bottom: 2%;
+	font-size: 12px;
+	padding: 5px;
+}
+/*estilos de las entradas*/
+.texto{
+	background-color: #1c1821;
+}
+.texto h3, h4{
+	text-align: center;
+	padding: 5px;
+}
+.texto h3{
+	color: #F6B96A;
+	font-family: "Courgette";
+	font-size: 14px;
+}
+.texto h4{
+	font-family: "Open Sans";
+	color: #ffffff;
+	font-size: 12px;
+}
+.texto p{
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 12px;
+	margin: 10px;
+}
+.video{
+	background-color: #1c1821;
+}
+/*estilos de about*/
+.buscar{
+	background-color: #1c1821;
+	text-align: center;
+	padding: 15px;
+	border-radius: 5px;
+}
+.buscar input{
+	width: 100%;
+	padding: 10px;
+	background-color: #2D2735;
+	border: none;
+}
+.garden{
+	background-color: #1c1821;
+	text-align: center;
+	color: #ffffff;
+	font-family: "Open Sans";
+	margin-top: 10px;
+}
+.garden p{
+	font-family: "Open Sans";
+	font-size: 12px;
+	margin: 5px;
+}
+.garden h3{
+	color: #F6B96A;
+	font-family: "Courgette";
+	font-size: 14px;
+	margin: 10px;
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	background-color: #2D2735;
+	padding: 5px 8px;
+	border-radius:20px;
+	margin: 10px;
+	font-size: 12px;
+}
+/*estilos del footer*/
+footer{
+	padding: 20px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: "Open Sans";
+}
 /* Responsive */
 
-@media screen and (max-width : 920px) {
-
-}
-
-@media screen and (max-width: 600px) {
-
-}

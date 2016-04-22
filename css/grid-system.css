@@ -5,13 +5,26 @@
   padding: 0;
  }
 
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
 /* Grid system */
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 968px;
+  padding-left: 14px; 
+  padding-right: 14px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.container-fluid {
+  width: 100%;
 }
 
 .row {
@@ -93,56 +106,4 @@
 .col-12 {
   /* (12 / 12) x 100 */
   width: 100%;
-}
-
-/*diseño*/
-@media (max-width: 767px) {
-  
-}
-
-@media (min-width: 200px) and (max-width: 535px) {
-  [class*="col-"] {
-    width: 100%;
-    margin-left: 3%;
-  }
-
-  .col-8 {
-    width: 66.666667%;
-    margin-left: 0%;
-
-  }
-
-  .col-8 img {
-    width: 60%;
-  }
-
-  .col-4 {
-    width: 33.333333%;
-    margin-left: 0%;
-  }
-
-  .formulario {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .col-5 p {
-    margin-bottom: 5%;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
 }
